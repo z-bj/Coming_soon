@@ -39,7 +39,8 @@ h1 {
 }
 
 h2 {
-    font-size: 6.854rem;
+    /* font-size: 6.854rem; */
+  font-size: clamp(4.236rem, 3.7027rem + 2.4378vw, 6.854rem);
     text-align: center;
 
 }
