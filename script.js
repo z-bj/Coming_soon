@@ -25,3 +25,7 @@ let x = setInterval(function () {
     document.getElementById("countdown").innerHTML = "RELEASED!";
   }
 }, 1000);
+
+//
+
+document.addEventListener("touchstart", function () {}, true);
