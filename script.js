@@ -27,5 +27,3 @@ let x = setInterval(function () {
 }, 1000);
 
 //
-
-document.addEventListener("touchstart", function () {}, true);
