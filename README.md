@@ -2,7 +2,7 @@
 
 # Coming soon Landing page
 
-This is a template for a modern coming soon page in adequation with my personal graphic chart.
+This is a template i designed for a modern coming soon page in adequation with my personal graphic chart.
 
 ## Get Started 
 
