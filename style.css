@@ -64,6 +64,41 @@ h5 {
     font-size: 1.618rem;
 }
 
+
+
+
+
+
+
+
+
+.legacy-link {
+	text-decoration: none;
+	color: #Fffefd;
+
+  position: relative;
+}
+
+.legacy-link::before {
+  content: '';
+  background-color: hsla(23, 100%, 50%, 0.797);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 5px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+
+.legacy-link:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+
+
+
 small,
 .text_small {
     font-size: 0.618rem;
